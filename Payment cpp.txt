@@ -1,0 +1,41 @@
+//IT21298394-Ashan Perera-MET_WE_03_01
+
+#include "Payment.h"
+#include <iostream>
+#include <cstring>
+using namespace std;
+
+
+
+
+Payment::Payment(int pID, char pType [], double pAmo)//overloaded constructor
+{
+PaymentId = pID;
+strcpy(PaymentType, pType);
+PaymentAmount = pAmo;  
+}
+
+
+
+void Payment::verifyPayment(){
+
+}
+
+
+
+void Payment::confirmPayment(){
+
+}
+
+
+
+void Payment::displayPaymentDetails(){
+
+}
+
+
+
+Payment::~Payment()//destructor
+{
+cout << "Destructor runs";
+}
